@@ -1,4 +1,4 @@
-name: CI build pipeline
+name: CICD
 
 on:
   push:
