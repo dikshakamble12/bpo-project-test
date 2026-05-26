@@ -50,6 +50,8 @@ The `npm test` command runs the build first and then checks that the generated `
     d. crate image
     e. push docker image to DockerHub
 7. DockerHUB account for docker image storage
+8. push code to github repo
+9. run github action pipeline if error is found then resolve the error.
 8. Create Kubernetes cluster
 9. install argocd
 10. deploy application on k8s

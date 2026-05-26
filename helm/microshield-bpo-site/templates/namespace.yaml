@@ -1,0 +1,8 @@
+{{- if .Values.namespace.create }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ include "microshield-bpo-site.namespace" . }}
+  labels:
+    {{- include "microshield-bpo-site.labels" . | nindent 4 }}
+{{- end }}
